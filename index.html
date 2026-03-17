@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sahara South Coast | Beach Club & Cafe Bantul</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300;400;600&display=swap');
+        
+        body { font-family: 'Inter', sans-serif; }
+        h1, h2 { font-family: 'Playfair Display', serif; }
+        .hero-bg {
+            background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), 
+                        url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="bg-orange-50 text-gray-800">
+
+    <nav class="fixed w-full z-50 bg-white/80 backdrop-blur-md shadow-sm">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold tracking-tighter text-orange-700">SAHARA</div>
+            <div class="hidden md:flex space-x-8 font-medium text-sm uppercase tracking-widest">
+                <a href="#about" class="hover:text-orange-600 transition">Tentang</a>
+                <a href="#services" class="hover:text-orange-600 transition">Layanan</a>
+                <a href="#menu" class="hover:text-orange-600 transition">Menu</a>
+                <a href="#contact" class="bg-orange-600 text-white px-5 py-2 rounded-full hover:bg-orange-700 transition">Reservasi</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero-bg h-screen flex items-center justify-center text-center text-white px-4">
+        <div>
+            <h1 class="text-5xl md:text-7xl mb-4">Senja Terbaik di Bantul</h1>
+            <p class="text-lg md:text-xl font-light mb-8 max-w-2xl mx-auto">Rasakan deburan ombak pantai selatan dengan sentuhan kuliner premium dan suasana yang tak terlupakan.</p>
+            <a href="#menu" class="border-2 border-white px-8 py-3 rounded-full hover:bg-white hover:text-orange-900 transition duration-300">Lihat Menu Kami</a>
+        </div>
+    </section>
+
+    <section id="about" class="py-20 max-w-7xl mx-auto px-6">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+                <span class="text-orange-600 font-semibold tracking-widest uppercase text-sm">Lokasi Kami</span>
+                <h2 class="text-4xl mt-2 mb-6">Pertemuan Antara Samudera dan Kenyamanan</h2>
+                <p class="text-gray-600 leading-relaxed mb-4">
+                    Terletak di garis pantai selatan yang eksotis, Sahara South Coast hadir sebagai destinasi utama bagi Anda yang mencari ketenangan. Kami memadukan konsep cafe modern dengan keindahan alam Bantul yang autentik.
+                </p>
+                <div class="flex items-start space-x-4 italic text-gray-500">
+                    <i class="fas fa-map-marker-alt mt-1 text-orange-600"></i>
+                    <p>Jl. Lintas Selatan, Kawasan Pantai Bantul (Perbatasan Malang), Yogyakarta.</p>
+                </div>
+            </div>
+            <div class="rounded-2xl overflow-hidden shadow-2xl">
+                <img src="https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=800&q=80" alt="Beach Club View">
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="bg-white py-20">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <h2 class="text-4xl mb-12">Layanan Eksklusif</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="p-8 bg-orange-50 rounded-xl">
+                    <i class="fas fa-umbrella-beach text-4xl text-orange-600 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">Private Cabana</h3>
+                    <p class="text-gray-600 text-sm">Nikmati privasi maksimal dengan pemandangan langsung ke laut lepas.</p>
+                </div>
+                <div class="p-8 bg-orange-50 rounded-xl">
+                    <i class="fas fa-cocktail text-4xl text-orange-600 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">Sunset Mixology</h3>
+                    <p class="text-gray-600 text-sm">Racikan minuman khas tropis dari bartender profesional kami.</p>
+                </div>
+                <div class="p-8 bg-orange-50 rounded-xl">
+                    <i class="fas fa-music text-4xl text-orange-600 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">Live Acoustic</h3>
+                    <p class="text-gray-600 text-sm">Iringan musik lembut setiap sore untuk menemani waktu santai Anda.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="bg-gray-900 text-white py-16">
+        <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-12 border-b border-gray-800 pb-12">
+            <div>
+                <h3 class="text-2xl font-bold mb-4">SAHARA</h3>
+                <p class="text-gray-400 text-sm">Destinasi pelarian terbaik di selatan Jawa. Mari ciptakan kenangan indah bersama kami.</p>
+            </div>
+            <div>
+                <h4 class="font-semibold mb-4 text-orange-400">Jam Operasional</h4>
+                <p class="text-sm text-gray-400">Senin - Minggu<br>10:00 AM - 10:00 PM</p>
+            </div>
+            <div>
+                <h4 class="font-semibold mb-4 text-orange-400">Ikuti Kami</h4>
+                <div class="flex space-x-4 text-xl">
+                    <a href="#" class="hover:text-orange-500 transition"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="hover:text-orange-500 transition"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="hover:text-orange-500 transition"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="text-center pt-8 text-gray-500 text-xs">
+            &copy; 2026 Sahara South Coast Beach Club. All Rights Reserved.
+        </div>
+    </footer>
+
+</body>
+</html>
